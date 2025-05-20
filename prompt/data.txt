@@ -1,0 +1,98 @@
+You should generate dataset of 30 random patients based on the provided instruction to analysis their health deterioration.
+
+Below shows the data schema description and you should try to have a balance of deteriorated and non-deteriorated patients.
+
+Data schema description:
+{
+    "patient_id": {
+        "type": "Integer",
+        "description": "Unique identifier for each patient"
+    },
+    "age": {
+        "type": "Integer",
+        "description": "Age of the patient"
+    },
+    "gender": {
+        "type": "String",
+        "description": "Gender of the patient"
+    },
+    "medical_history": {
+        "type": "Text",
+        "description": "Short medical history of the patient"
+    },
+    "deterioration_label": {
+        "type": "Boolean",
+        "description": "Indicates if the patient has deteriorated (true) or not (false)"
+    },
+    "timestamp": {
+        "type": "DateTime",
+        "description": "Timestamp of the data entry"
+    },
+    "hear_rate": {
+        "type": "Float",
+        "description": "Heart rate of the patient in beats per minute"
+    },
+    "blood_pressure_sys": {
+        "type": "Float",
+        "description": "Systolic blood pressure of the patient in mmHg"
+    },
+    "blood_pressure_dia": {
+        "type": "Float",
+        "description": "Diastolic blood pressure of the patient in mmHg"
+    },
+    "oxygen_saturation": {
+        "type": "Float",
+        "description": "Oxygen saturation level of the patient in percentage"
+    },
+    "temperature": {
+        "type": "Float",
+        "description": "Body temperature of the patient in Celsius"
+    },
+    "respiratory_rate": {
+        "type": "Float",
+        "description": "Respiratory rate of the patient in breaths per minute"
+    },
+    "questionnaire_responses": {
+        "type": "Object",
+        "description": "Responses to the questionnaire",
+        "properties": {
+            "describe_fatigue_level": {
+                "type": "Text",
+                "description": "Description of fatigue level"
+            },
+            "describe_lifestyle": {
+                "type": "Text",
+                "description": "Description of lifestyle"
+            },
+            "describe_mental_health": {
+                "type": "Text",
+                "description": "Description of mental health"
+            }
+        }
+    }
+}
+
+Expected output format:
+```
+[
+  {
+    "patient_id": Integer,
+    "age": Integer,
+    "gender": String,
+    "medical_history": Text,
+    "deterioration_label": Boolean,
+    "timestamp": DateTime,
+    "hear_rate": Float,
+    "blood_pressure_sys": Float,
+    "blood_pressure_dia": Float,
+    "oxygen_saturation": Float,
+    "temperature": Float,
+    "respiratory_rate": float,
+    "questionnaire_responses": {
+        "describe_fatigue_level": Text,
+        "describe_lifestyle": Text,
+        "describe_mental_health": Text,
+    }
+  }
+]
+```
