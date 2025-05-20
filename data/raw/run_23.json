@@ -1,0 +1,572 @@
+[
+  {
+    "patient_id": 1,
+    "age": 65,
+    "gender": "Male",
+    "medical_history": "History of controlled hypertension.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T09:30:00Z",
+    "hear_rate": 72.5,
+    "blood_pressure_sys": 130.0,
+    "blood_pressure_dia": 85.0,
+    "oxygen_saturation": 97.0,
+    "temperature": 36.8,
+    "respiratory_rate": 16.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Mild fatigue by end of day.",
+      "describe_lifestyle": "Moderately active, walks daily.",
+      "describe_mental_health": "Generally good."
+    }
+  },
+  {
+    "patient_id": 2,
+    "age": 55,
+    "gender": "Female",
+    "medical_history": "No significant medical history.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T09:35:00Z",
+    "hear_rate": 68.0,
+    "blood_pressure_sys": 120.0,
+    "blood_pressure_dia": 80.0,
+    "oxygen_saturation": 98.0,
+    "temperature": 37.0,
+    "respiratory_rate": 15.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "No significant fatigue.",
+      "describe_lifestyle": "Active, exercises 3 times a week.",
+      "describe_mental_health": "Feeling positive."
+    }
+  },
+  {
+    "patient_id": 3,
+    "age": 72,
+    "gender": "Male",
+    "medical_history": "Previous heart attack 5 years ago, on medication.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T09:40:00Z",
+    "hear_rate": 78.0,
+    "blood_pressure_sys": 135.0,
+    "blood_pressure_dia": 88.0,
+    "oxygen_saturation": 96.5,
+    "temperature": 36.7,
+    "respiratory_rate": 17.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Some fatigue after exertion.",
+      "describe_lifestyle": "Takes short walks daily.",
+      "describe_mental_health": "Coping well."
+    }
+  },
+  {
+    "patient_id": 4,
+    "age": 45,
+    "gender": "Female",
+    "medical_history": "Asthma, well-controlled with inhaler.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T09:45:00Z",
+    "hear_rate": 70.0,
+    "blood_pressure_sys": 118.0,
+    "blood_pressure_dia": 76.0,
+    "oxygen_saturation": 97.5,
+    "temperature": 37.1,
+    "respiratory_rate": 16.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Normal energy levels.",
+      "describe_lifestyle": "Runs twice a week.",
+      "describe_mental_health": "Feeling stable."
+    }
+  },
+  {
+    "patient_id": 5,
+    "age": 80,
+    "gender": "Male",
+    "medical_history": "Osteoarthritis and hearing loss.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T09:50:00Z",
+    "hear_rate": 75.0,
+    "blood_pressure_sys": 128.0,
+    "blood_pressure_dia": 82.0,
+    "oxygen_saturation": 96.0,
+    "temperature": 36.5,
+    "respiratory_rate": 18.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Gets tired by late afternoon.",
+      "describe_lifestyle": "Limited mobility due to joints, uses walking aid.",
+      "describe_mental_health": "Generally okay, sometimes lonely."
+    }
+  },
+  {
+    "patient_id": 6,
+    "age": 35,
+    "gender": "Female",
+    "medical_history": "No chronic conditions.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T09:55:00Z",
+    "hear_rate": 65.0,
+    "blood_pressure_sys": 110.0,
+    "blood_pressure_dia": 70.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 37.0,
+    "respiratory_rate": 14.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Minimal fatigue.",
+      "describe_lifestyle": "Very active, goes to gym daily.",
+      "describe_mental_health": "Excellent."
+    }
+  },
+  {
+    "patient_id": 7,
+    "age": 50,
+    "gender": "Male",
+    "medical_history": "Managed Type 2 Diabetes.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:00:00Z",
+    "hear_rate": 73.0,
+    "blood_pressure_sys": 125.0,
+    "blood_pressure_dia": 80.0,
+    "oxygen_saturation": 97.0,
+    "temperature": 36.9,
+    "respiratory_rate": 16.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Occasional slight fatigue.",
+      "describe_lifestyle": "Eats healthy, walks most days.",
+      "describe_mental_health": "Doing well."
+    }
+  },
+  {
+    "patient_id": 8,
+    "age": 68,
+    "gender": "Female",
+    "medical_history": "Hypothyroidism, on medication.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:05:00Z",
+    "hear_rate": 70.0,
+    "blood_pressure_sys": 130.0,
+    "blood_pressure_dia": 84.0,
+    "oxygen_saturation": 97.0,
+    "temperature": 36.6,
+    "respiratory_rate": 15.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Managable fatigue.",
+      "describe_lifestyle": "Regular gentle exercise.",
+      "describe_mental_health": "Calm and content."
+    }
+  },
+  {
+    "patient_id": 9,
+    "age": 28,
+    "gender": "Male",
+    "medical_history": "No significant medical history.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:10:00Z",
+    "hear_rate": 60.0,
+    "blood_pressure_sys": 115.0,
+    "blood_pressure_dia": 75.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 37.2,
+    "respiratory_rate": 14.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Rarely feel tired.",
+      "describe_lifestyle": "Sports enthusiast, active lifestyle.",
+      "describe_mental_health": "Very good."
+    }
+  },
+  {
+    "patient_id": 10,
+    "age": 75,
+    "gender": "Female",
+    "medical_history": "Mild COPD.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:15:00Z",
+    "hear_rate": 80.0,
+    "blood_pressure_sys": 138.0,
+    "blood_pressure_dia": 86.0,
+    "oxygen_saturation": 95.5,
+    "temperature": 36.8,
+    "respiratory_rate": 19.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Moderate fatigue with activity.",
+      "describe_lifestyle": "Sedentary due to breathing difficulty.",
+      "describe_mental_health": "Managing ok."
+    }
+  },
+  {
+    "patient_id": 11,
+    "age": 40,
+    "gender": "Male",
+    "medical_history": "No chronic conditions.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:20:00Z",
+    "hear_rate": 68.0,
+    "blood_pressure_sys": 122.0,
+    "blood_pressure_dia": 78.0,
+    "oxygen_saturation": 98.0,
+    "temperature": 37.0,
+    "respiratory_rate": 15.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Normal fatigue.",
+      "describe_lifestyle": "Active, cycling hobby.",
+      "describe_mental_health": "Happy."
+    }
+  },
+  {
+    "patient_id": 12,
+    "age": 60,
+    "gender": "Female",
+    "medical_history": "Previous stroke with minor residual weakness.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:25:00Z",
+    "hear_rate": 76.0,
+    "blood_pressure_sys": 132.0,
+    "blood_pressure_dia": 84.0,
+    "oxygen_saturation": 97.0,
+    "temperature": 36.9,
+    "respiratory_rate": 17.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Fatigue with prolonged activity.",
+      "describe_lifestyle": "Daily physiotherapy exercises.",
+      "describe_mental_health": "Mostly positive."
+    }
+  },
+  {
+    "patient_id": 13,
+    "age": 30,
+    "gender": "Male",
+    "medical_history": "No medical history.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:30:00Z",
+    "hear_rate": 62.0,
+    "blood_pressure_sys": 118.0,
+    "blood_pressure_dia": 76.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 37.1,
+    "respiratory_rate": 15.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Low fatigue.",
+      "describe_lifestyle": "Runs marathons.",
+      "describe_mental_health": "Excellent."
+    }
+  },
+  {
+    "patient_id": 14,
+    "age": 58,
+    "gender": "Female",
+    "medical_history": "Migraines.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:35:00Z",
+    "hear_rate": 71.0,
+    "blood_pressure_sys": 125.0,
+    "blood_pressure_dia": 81.0,
+    "oxygen_saturation": 97.5,
+    "temperature": 37.0,
+    "respiratory_rate": 16.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Occasional fatigue related to migraines.",
+      "describe_lifestyle": "Regular walking.",
+      "describe_mental_health": "Good, except during migraine episodes."
+    }
+  },
+  {
+    "patient_id": 15,
+    "age": 70,
+    "gender": "Male",
+    "medical_history": "Prostate cancer, in remission.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-26T10:40:00Z",
+    "hear_rate": 74.0,
+    "blood_pressure_sys": 135.0,
+    "blood_pressure_dia": 85.0,
+    "oxygen_saturation": 96.0,
+    "temperature": 36.7,
+    "respiratory_rate": 17.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Some fatigue from treatment history.",
+      "describe_lifestyle": "Slow walks daily.",
+      "describe_mental_health": "Thankful and positive."
+    }
+  },
+  {
+    "patient_id": 16,
+    "age": 78,
+    "gender": "Female",
+    "medical_history": "Congestive Heart Failure.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T10:45:00Z",
+    "hear_rate": 95.0,
+    "blood_pressure_sys": 105.0,
+    "blood_pressure_dia": 65.0,
+    "oxygen_saturation": 90.0,
+    "temperature": 37.4,
+    "respiratory_rate": 25.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Severe fatigue, constantly tired.",
+      "describe_lifestyle": "Unable to perform daily activities.",
+      "describe_mental_health": "Anxious and low mood."
+    }
+  },
+  {
+    "patient_id": 17,
+    "age": 62,
+    "gender": "Male",
+    "medical_history": "Pneumonia.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T10:50:00Z",
+    "hear_rate": 105.0,
+    "blood_pressure_sys": 115.0,
+    "blood_pressure_dia": 70.0,
+    "oxygen_saturation": 88.0,
+    "temperature": 38.5,
+    "respiratory_rate": 28.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Exhausted.",
+      "describe_lifestyle": "Bedbound.",
+      "describe_mental_health": "Feverish and confused."
+    }
+  },
+  {
+    "patient_id": 18,
+    "age": 85,
+    "gender": "Female",
+    "medical_history": "Dementia and recurrent UTIs.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T10:55:00Z",
+    "hear_rate": 90.0,
+    "blood_pressure_sys": 100.0,
+    "blood_pressure_dia": 60.0,
+    "oxygen_saturation": 93.0,
+    "temperature": 37.9,
+    "respiratory_rate": 22.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Very tired, sleeping more.",
+      "describe_lifestyle": "Minimal activity.",
+      "describe_mental_health": "Increased confusion and agitation."
+    }
+  },
+  {
+    "patient_id": 19,
+    "age": 50,
+    "gender": "Male",
+    "medical_history": "Sepsis.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:00:00Z",
+    "hear_rate": 110.0,
+    "blood_pressure_sys": 90.0,
+    "blood_pressure_dia": 50.0,
+    "oxygen_saturation": 91.0,
+    "temperature": 39.1,
+    "respiratory_rate": 30.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Critically weak.",
+      "describe_lifestyle": "Cannot move.",
+      "describe_mental_health": "Delirious."
+    }
+  },
+  {
+    "patient_id": 20,
+    "age": 70,
+    "gender": "Female",
+    "medical_history": "Acute Kidney Injury.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:05:00Z",
+    "hear_rate": 98.0,
+    "blood_pressure_sys": 145.0,
+    "blood_pressure_dia": 95.0,
+    "oxygen_saturation": 94.0,
+    "temperature": 37.5,
+    "respiratory_rate": 24.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Profound fatigue.",
+      "describe_lifestyle": "Limited to chair/bed.",
+      "describe_mental_health": "Feeling unwell, nauseous."
+    }
+  },
+  {
+    "patient_id": 21,
+    "age": 66,
+    "gender": "Male",
+    "medical_history": "Exacerbation of COPD.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:10:00Z",
+    "hear_rate": 100.0,
+    "blood_pressure_sys": 130.0,
+    "blood_pressure_dia": 85.0,
+    "oxygen_saturation": 87.0,
+    "temperature": 37.8,
+    "respiratory_rate": 32.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Severe breathlessness causes fatigue.",
+      "describe_lifestyle": "Cannot walk more than a few steps.",
+      "describe_mental_health": "Panicked and distressed."
+    }
+  },
+  {
+    "patient_id": 22,
+    "age": 45,
+    "gender": "Female",
+    "medical_history": "Severe Anemia.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:15:00Z",
+    "hear_rate": 120.0,
+    "blood_pressure_sys": 100.0,
+    "blood_pressure_dia": 60.0,
+    "oxygen_saturation": 95.0,
+    "temperature": 36.5,
+    "respiratory_rate": 20.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Extreme fatigue, dizzy.",
+      "describe_lifestyle": "Cannot leave bed.",
+      "describe_mental_health": "Weak and lightheaded."
+    }
+  },
+  {
+    "patient_id": 23,
+    "age": 73,
+    "gender": "Male",
+    "medical_history": "Post-surgical complication (infection).",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:20:00Z",
+    "hear_rate": 92.0,
+    "blood_pressure_sys": 110.0,
+    "blood_pressure_dia": 70.0,
+    "oxygen_saturation": 93.0,
+    "temperature": 38.8,
+    "respiratory_rate": 26.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Feeling very unwell and weak.",
+      "describe_lifestyle": "In bed recovering.",
+      "describe_mental_health": "A lot of pain, worried."
+    }
+  },
+  {
+    "patient_id": 24,
+    "age": 88,
+    "gender": "Female",
+    "medical_history": "Multiple comorbidities, general frailty.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:25:00Z",
+    "hear_rate": 85.0,
+    "blood_pressure_sys": 95.0,
+    "blood_pressure_dia": 55.0,
+    "oxygen_saturation": 92.0,
+    "temperature": 36.0,
+    "respiratory_rate": 21.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "No energy at all.",
+      "describe_lifestyle": "Cannot get out of bed.",
+      "describe_mental_health": "Quiet and withdrawn."
+    }
+  },
+  {
+    "patient_id": 25,
+    "age": 55,
+    "gender": "Male",
+    "medical_history": "Acute Exacerbation of Chronic Bronchitis.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:30:00Z",
+    "hear_rate": 102.0,
+    "blood_pressure_sys": 135.0,
+    "blood_pressure_dia": 88.0,
+    "oxygen_saturation": 89.0,
+    "temperature": 38.2,
+    "respiratory_rate": 30.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Severe breathlessness.",
+      "describe_lifestyle": "Cannot perform any activities.",
+      "describe_mental_health": "Coughing constantly, feeling terrible."
+    }
+  },
+  {
+    "patient_id": 26,
+    "age": 76,
+    "gender": "Female",
+    "medical_history": "Stroke with residual weakness and dysphagia.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:35:00Z",
+    "hear_rate": 90.0,
+    "blood_pressure_sys": 150.0,
+    "blood_pressure_dia": 90.0,
+    "oxygen_saturation": 94.0,
+    "temperature": 37.6,
+    "respiratory_rate": 23.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Fatigue related to swallowing difficulties.",
+      "describe_lifestyle": "Chairbound.",
+      "describe_mental_health": "Frustrated and withdrawn."
+    }
+  },
+  {
+    "patient_id": 27,
+    "age": 68,
+    "gender": "Male",
+    "medical_history": "Gastrointestinal bleed.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:40:00Z",
+    "hear_rate": 115.0,
+    "blood_pressure_sys": 80.0,
+    "blood_pressure_dia": 45.0,
+    "oxygen_saturation": 96.0,
+    "temperature": 36.9,
+    "respiratory_rate": 25.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Very weak and lightheaded.",
+      "describe_lifestyle": "Bedbound.",
+      "describe_mental_health": "Dizzy and anxious."
+    }
+  },
+  {
+    "patient_id": 28,
+    "age": 81,
+    "gender": "Female",
+    "medical_history": "New onset Atrial Fibrillation with rapid ventricular response.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:45:00Z",
+    "hear_rate": 130.0,
+    "blood_pressure_sys": 100.0,
+    "blood_pressure_dia": 60.0,
+    "oxygen_saturation": 94.0,
+    "temperature": 37.1,
+    "respiratory_rate": 22.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Severe palpitations and fatigue.",
+      "describe_lifestyle": "Cannot do anything due to racing heart.",
+      "describe_mental_health": "Palpitations are frightening."
+    }
+  },
+  {
+    "patient_id": 29,
+    "age": 59,
+    "gender": "Male",
+    "medical_history": "Pulmonary Embolism.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:50:00Z",
+    "hear_rate": 108.0,
+    "blood_pressure_sys": 120.0,
+    "blood_pressure_dia": 78.0,
+    "oxygen_saturation": 85.0,
+    "temperature": 37.8,
+    "respiratory_rate": 35.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Sudden severe shortness of breath.",
+      "describe_lifestyle": "Cannot breathe.",
+      "describe_mental_health": "Terrified."
+    }
+  },
+  {
+    "patient_id": 30,
+    "age": 74,
+    "gender": "Female",
+    "medical_history": "Diabetic Ketoacidosis.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-26T11:55:00Z",
+    "hear_rate": 100.0,
+    "blood_pressure_sys": 90.0,
+    "blood_pressure_dia": 50.0,
+    "oxygen_saturation": 95.0,
+    "temperature": 38.0,
+    "respiratory_rate": 28.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Weak and nauseous.",
+      "describe_lifestyle": "Very unwell, not eating.",
+      "describe_mental_health": "Confused and irritable."
+    }
+  }
+]

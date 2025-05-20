@@ -1,0 +1,572 @@
+[
+  {
+    "patient_id": 1,
+    "age": 65,
+    "gender": "Female",
+    "medical_history": "History of hypertension and type 2 diabetes.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T10:00:00Z",
+    "hear_rate": 95.5,
+    "blood_pressure_sys": 160.2,
+    "blood_pressure_dia": 98.1,
+    "oxygen_saturation": 91.5,
+    "temperature": 37.8,
+    "respiratory_rate": 22.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Severe fatigue, barely have energy to get out of bed.",
+      "describe_lifestyle": "Very sedentary, limited activity due to fatigue.",
+      "describe_mental_health": "Feeling very low and anxious."
+    }
+  },
+  {
+    "patient_id": 2,
+    "age": 45,
+    "gender": "Male",
+    "medical_history": "No significant medical history.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T10:05:00Z",
+    "hear_rate": 72.0,
+    "blood_pressure_sys": 125.5,
+    "blood_pressure_dia": 78.3,
+    "oxygen_saturation": 98.0,
+    "temperature": 36.6,
+    "respiratory_rate": 15.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Mild fatigue, manageable.",
+      "describe_lifestyle": "Active lifestyle, regular exercise.",
+      "describe_mental_health": "Feeling generally good."
+    }
+  },
+  {
+    "patient_id": 3,
+    "age": 78,
+    "gender": "Male",
+    "medical_history": "Chronic obstructive pulmonary disease (COPD) and heart failure.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T10:10:00Z",
+    "hear_rate": 105.0,
+    "blood_pressure_sys": 140.0,
+    "blood_pressure_dia": 85.0,
+    "oxygen_saturation": 88.0,
+    "temperature": 37.5,
+    "respiratory_rate": 25.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Extreme fatigue, difficulty breathing.",
+      "describe_lifestyle": "Unable to perform daily activities.",
+      "describe_mental_health": "Worried and stressed about health."
+    }
+  },
+  {
+    "patient_id": 4,
+    "age": 55,
+    "gender": "Female",
+    "medical_history": "History of migraine headaches.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T10:15:00Z",
+    "hear_rate": 68.0,
+    "blood_pressure_sys": 118.0,
+    "blood_pressure_dia": 75.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 36.9,
+    "respiratory_rate": 14.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "No unusual fatigue.",
+      "describe_lifestyle": "Balanced lifestyle with work and leisure.",
+      "describe_mental_health": "Stable."
+    }
+  },
+  {
+    "patient_id": 5,
+    "age": 32,
+    "gender": "Other",
+    "medical_history": "No major health issues.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T10:20:00Z",
+    "hear_rate": 75.0,
+    "blood_pressure_sys": 120.0,
+    "blood_pressure_dia": 80.0,
+    "oxygen_saturation": 98.5,
+    "temperature": 37.0,
+    "respiratory_rate": 16.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Normal energy levels.",
+      "describe_lifestyle": "Active, enjoys sports.",
+      "describe_mental_health": "Positive outlook."
+    }
+  },
+  {
+    "patient_id": 6,
+    "age": 88,
+    "gender": "Female",
+    "medical_history": "Advanced dementia and recurrent infections.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T10:25:00Z",
+    "hear_rate": 110.0,
+    "blood_pressure_sys": 100.0,
+    "blood_pressure_dia": 60.0,
+    "oxygen_saturation": 90.0,
+    "temperature": 38.5,
+    "respiratory_rate": 28.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Constant fatigue, sleeps most of the time.",
+      "describe_lifestyle": "Completely dependent.",
+      "describe_mental_health": "Significant cognitive decline."
+    }
+  },
+  {
+    "patient_id": 7,
+    "age": 25,
+    "gender": "Male",
+    "medical_history": "Seasonal allergies.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T10:30:00Z",
+    "hear_rate": 65.0,
+    "blood_pressure_sys": 115.0,
+    "blood_pressure_dia": 70.0,
+    "oxygen_saturation": 99.5,
+    "temperature": 36.5,
+    "respiratory_rate": 13.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Minimal fatigue.",
+      "describe_lifestyle": "Very active, works out daily.",
+      "describe_mental_health": "Happy and engaged."
+    }
+  },
+  {
+    "patient_id": 8,
+    "age": 70,
+    "gender": "Male",
+    "medical_history": "Parkinson's disease.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T10:35:00Z",
+    "hear_rate": 85.0,
+    "blood_pressure_sys": 135.0,
+    "blood_pressure_dia": 88.0,
+    "oxygen_saturation": 93.0,
+    "temperature": 37.2,
+    "respiratory_rate": 19.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Moderate to severe fatigue, especially in the afternoons.",
+      "describe_lifestyle": "Reduced mobility, requires assistance.",
+      "describe_mental_health": "Dealing with frustration and some depression."
+    }
+  },
+  {
+    "patient_id": 9,
+    "age": 60,
+    "gender": "Female",
+    "medical_history": "Osteoarthritis.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T10:40:00Z",
+    "hear_rate": 70.0,
+    "blood_pressure_sys": 128.0,
+    "blood_pressure_dia": 82.0,
+    "oxygen_saturation": 97.0,
+    "temperature": 36.8,
+    "respiratory_rate": 15.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Occasional fatigue due to pain.",
+      "describe_lifestyle": "Manages daily tasks, light exercise.",
+      "describe_mental_health": "Coping well."
+    }
+  },
+  {
+    "patient_id": 10,
+    "age": 50,
+    "gender": "Male",
+    "medical_history": "Diagnosed with acute kidney injury.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T10:45:00Z",
+    "hear_rate": 90.0,
+    "blood_pressure_sys": 150.0,
+    "blood_pressure_dia": 95.0,
+    "oxygen_saturation": 94.0,
+    "temperature": 37.9,
+    "respiratory_rate": 20.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "High level of fatigue and weakness.",
+      "describe_lifestyle": "Limited activity due to illness.",
+      "describe_mental_health": "Concerned and worried about prognosis."
+    }
+  },
+  {
+    "patient_id": 11,
+    "age": 22,
+    "gender": "Female",
+    "medical_history": "No known medical issues.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T10:50:00Z",
+    "hear_rate": 80.0,
+    "blood_pressure_sys": 110.0,
+    "blood_pressure_dia": 68.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 36.7,
+    "respiratory_rate": 17.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Occasional fatigue from work.",
+      "describe_lifestyle": "Very active, social.",
+      "describe_mental_health": "Generally happy and stable."
+    }
+  },
+  {
+    "patient_id": 12,
+    "age": 92,
+    "gender": "Male",
+    "medical_history": "Multiple comorbidities including heart disease and frailty.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T10:55:00Z",
+    "hear_rate": 115.0,
+    "blood_pressure_sys": 105.0,
+    "blood_pressure_dia": 65.0,
+    "oxygen_saturation": 89.0,
+    "temperature": 38.0,
+    "respiratory_rate": 26.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Profound fatigue, sleeps most of the day.",
+      "describe_lifestyle": "Bedbound.",
+      "describe_mental_health": "Withdrawn and confused at times."
+    }
+  },
+  {
+    "patient_id": 13,
+    "age": 40,
+    "gender": "Female",
+    "medical_history": "Anxiety disorder, well-managed.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T11:00:00Z",
+    "hear_rate": 75.0,
+    "blood_pressure_sys": 122.0,
+    "blood_pressure_dia": 76.0,
+    "oxygen_saturation": 98.0,
+    "temperature": 36.9,
+    "respiratory_rate": 16.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Minor fatigue.",
+      "describe_lifestyle": "Active work life, enjoys hobbies.",
+      "describe_mental_health": "Managing anxiety effectively."
+    }
+  },
+  {
+    "patient_id": 14,
+    "age": 75,
+    "gender": "Male",
+    "medical_history": "Recent stroke.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T11:05:00Z",
+    "hear_rate": 98.0,
+    "blood_pressure_sys": 170.0,
+    "blood_pressure_dia": 100.0,
+    "oxygen_saturation": 92.0,
+    "temperature": 37.6,
+    "respiratory_rate": 21.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Very tired, difficulty with movement.",
+      "describe_lifestyle": "Requires significant assistance.",
+      "describe_mental_health": "Frustrated and sad about limitations."
+    }
+  },
+  {
+    "patient_id": 15,
+    "age": 19,
+    "gender": "Female",
+    "medical_history": "Asthma, controlled.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T11:10:00Z",
+    "hear_rate": 82.0,
+    "blood_pressure_sys": 108.0,
+    "blood_pressure_dia": 65.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 36.6,
+    "respiratory_rate": 18.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Normal for age.",
+      "describe_lifestyle": "Student, active social life.",
+      "describe_mental_health": "Good."
+    }
+  },
+  {
+    "patient_id": 16,
+    "age": 85,
+    "gender": "Female",
+    "medical_history": "End-stage renal disease.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T11:15:00Z",
+    "hear_rate": 100.0,
+    "blood_pressure_sys": 155.0,
+    "blood_pressure_dia": 90.0,
+    "oxygen_saturation": 90.0,
+    "temperature": 37.7,
+    "respiratory_rate": 24.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Constant, debilitating fatigue.",
+      "describe_lifestyle": "Limited to home, minimal activity.",
+      "describe_mental_health": "Feeling weak and hopeless."
+    }
+  },
+  {
+    "patient_id": 17,
+    "age": 58,
+    "gender": "Male",
+    "medical_history": "Hypothyroidism, managed with medication.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T11:20:00Z",
+    "hear_rate": 62.0,
+    "blood_pressure_sys": 130.0,
+    "blood_pressure_dia": 85.0,
+    "oxygen_saturation": 97.5,
+    "temperature": 36.5,
+    "respiratory_rate": 14.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Minimal.",
+      "describe_lifestyle": "Regular exercise, healthy diet.",
+      "describe_mental_health": "Stable and content."
+    }
+  },
+  {
+    "patient_id": 18,
+    "age": 68,
+    "gender": "Female",
+    "medical_history": "Severe pneumonia.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T11:25:00Z",
+    "hear_rate": 120.0,
+    "blood_pressure_sys": 100.0,
+    "blood_pressure_dia": 55.0,
+    "oxygen_saturation": 85.0,
+    "temperature": 39.0,
+    "respiratory_rate": 30.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Extremely weak and tired.",
+      "describe_lifestyle": "Cannot do anything independently.",
+      "describe_mental_health": "Confused and scared."
+    }
+  },
+  {
+    "patient_id": 19,
+    "age": 35,
+    "gender": "Male",
+    "medical_history": "No significant issues.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T11:30:00Z",
+    "hear_rate": 70.0,
+    "blood_pressure_sys": 120.0,
+    "blood_pressure_dia": 75.0,
+    "oxygen_saturation": 98.0,
+    "temperature": 36.8,
+    "respiratory_rate": 15.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Low.",
+      "describe_lifestyle": "Active, enjoys hobbies.",
+      "describe_mental_health": "Good."
+    }
+  },
+  {
+    "patient_id": 20,
+    "age": 80,
+    "gender": "Male",
+    "medical_history": "Multiple myeloma.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T11:35:00Z",
+    "hear_rate": 90.0,
+    "blood_pressure_sys": 130.0,
+    "blood_pressure_dia": 80.0,
+    "oxygen_saturation": 93.0,
+    "temperature": 37.5,
+    "respiratory_rate": 20.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Very fatigued due to treatment.",
+      "describe_lifestyle": "Reduced activity, requires rest.",
+      "describe_mental_health": "Struggling emotionally."
+    }
+  },
+  {
+    "patient_id": 21,
+    "age": 28,
+    "gender": "Female",
+    "medical_history": "None.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T11:40:00Z",
+    "hear_rate": 78.0,
+    "blood_pressure_sys": 118.0,
+    "blood_pressure_dia": 74.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 36.7,
+    "respiratory_rate": 16.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Minimal.",
+      "describe_lifestyle": "Balanced, healthy habits.",
+      "describe_mental_health": "Positive."
+    }
+  },
+  {
+    "patient_id": 22,
+    "age": 72,
+    "gender": "Female",
+    "medical_history": "Congestive heart failure.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T11:45:00Z",
+    "hear_rate": 100.0,
+    "blood_pressure_sys": 145.0,
+    "blood_pressure_dia": 90.0,
+    "oxygen_saturation": 91.0,
+    "temperature": 37.4,
+    "respiratory_rate": 23.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Significant fatigue and shortness of breath.",
+      "describe_lifestyle": "Limited by symptoms.",
+      "describe_mental_health": "Feeling anxious and worried."
+    }
+  },
+  {
+    "patient_id": 23,
+    "age": 48,
+    "gender": "Male",
+    "medical_history": "Mild hypertension, controlled.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T11:50:00Z",
+    "hear_rate": 68.0,
+    "blood_pressure_sys": 135.0,
+    "blood_pressure_dia": 85.0,
+    "oxygen_saturation": 98.0,
+    "temperature": 36.8,
+    "respiratory_rate": 14.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Moderate, work-related.",
+      "describe_lifestyle": "Regular exercise, trying to eat healthier.",
+      "describe_mental_health": "Stable."
+    }
+  },
+  {
+    "patient_id": 24,
+    "age": 62,
+    "gender": "Other",
+    "medical_history": "Chronic pain syndrome.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T11:55:00Z",
+    "hear_rate": 85.0,
+    "blood_pressure_sys": 140.0,
+    "blood_pressure_dia": 88.0,
+    "oxygen_saturation": 95.0,
+    "temperature": 37.1,
+    "respiratory_rate": 19.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Constant fatigue due to pain and lack of sleep.",
+      "describe_lifestyle": "Limited activity.",
+      "describe_mental_health": "Dealing with chronic pain affects mood."
+    }
+  },
+  {
+    "patient_id": 25,
+    "age": 30,
+    "gender": "Female",
+    "medical_history": "None.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T12:00:00Z",
+    "hear_rate": 72.0,
+    "blood_pressure_sys": 112.0,
+    "blood_pressure_dia": 70.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 36.6,
+    "respiratory_rate": 15.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Low.",
+      "describe_lifestyle": "Active, enjoys hiking.",
+      "describe_mental_health": "Good."
+    }
+  },
+  {
+    "patient_id": 26,
+    "age": 90,
+    "gender": "Male",
+    "medical_history": "Frailty and sarcopenia.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T12:05:00Z",
+    "hear_rate": 95.0,
+    "blood_pressure_sys": 110.0,
+    "blood_pressure_dia": 68.0,
+    "oxygen_saturation": 92.0,
+    "temperature": 37.0,
+    "respiratory_rate": 20.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Significant weakness and fatigue.",
+      "describe_lifestyle": "Requires assistance for most tasks.",
+      "describe_mental_health": "Apathetic."
+    }
+  },
+  {
+    "patient_id": 27,
+    "age": 52,
+    "gender": "Female",
+    "medical_history": "History of well-controlled asthma.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T12:10:00Z",
+    "hear_rate": 75.0,
+    "blood_pressure_sys": 128.0,
+    "blood_pressure_dia": 80.0,
+    "oxygen_saturation": 97.0,
+    "temperature": 36.8,
+    "respiratory_rate": 16.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Normal.",
+      "describe_lifestyle": "Regular exercise, balanced diet.",
+      "describe_mental_health": "Good."
+    }
+  },
+  {
+    "patient_id": 28,
+    "age": 70,
+    "gender": "Male",
+    "medical_history": "Dehydration and electrolyte imbalance.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T12:15:00Z",
+    "hear_rate": 105.0,
+    "blood_pressure_sys": 90.0,
+    "blood_pressure_dia": 50.0,
+    "oxygen_saturation": 94.0,
+    "temperature": 38.2,
+    "respiratory_rate": 22.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Extreme weakness and fatigue.",
+      "describe_lifestyle": "Unable to maintain hydration.",
+      "describe_mental_health": "Confused and agitated."
+    }
+  },
+  {
+    "patient_id": 29,
+    "age": 42,
+    "gender": "Female",
+    "medical_history": "None.",
+    "deterioration_label": false,
+    "timestamp": "2023-10-27T12:20:00Z",
+    "hear_rate": 68.0,
+    "blood_pressure_sys": 115.0,
+    "blood_pressure_dia": 72.0,
+    "oxygen_saturation": 99.0,
+    "temperature": 36.5,
+    "respiratory_rate": 14.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Low.",
+      "describe_lifestyle": "Very active, works out daily.",
+      "describe_mental_health": "Positive."
+    }
+  },
+  {
+    "patient_id": 30,
+    "age": 88,
+    "gender": "Female",
+    "medical_history": "Fall with hip fracture.",
+    "deterioration_label": true,
+    "timestamp": "2023-10-27T12:25:00Z",
+    "hear_rate": 98.0,
+    "blood_pressure_sys": 118.0,
+    "blood_pressure_dia": 75.0,
+    "oxygen_saturation": 93.0,
+    "temperature": 37.6,
+    "respiratory_rate": 20.0,
+    "questionnaire_responses": {
+      "describe_fatigue_level": "Moderate to severe, pain related.",
+      "describe_lifestyle": "Immobile.",
+      "describe_mental_health": "Anxious about recovery."
+    }
+  }
+]
