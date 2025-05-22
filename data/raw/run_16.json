@@ -39,42 +39,42 @@
   },
   {
     "patient_id": 3,
-0 "age": 78,
-0 "gender": "Female",
-0 "medical_history": "Chronic obstructive pulmonary disease (COPD). Increased cough and shortness of breath.",
-0 "deterioration_label": true,
-0 "timestamp": "2023-10-27T10:30:00Z",
-0 "hear_rate": 105.0,
-0 "blood_pressure_sys": 140.0,
-0 "blood_pressure_dia": 88.0,
-0 "oxygen_saturation": 88.0,
-0 "temperature": 37.5,
-0 "respiratory_rate": 25.0,
-0 "questionnaire_responses": {
-0 "describe_fatigue_level": "Very high fatigue, simple tasks are difficult.",
-0 "describe_lifestyle": "Unable to do much physical activity. Home-bound.",
-0 "describe_mental_health": "Feeling discouraged and isolated."
-0 }
-0 },
-0 {
-0 "patient_id": 4,
-0 "age": 32,
-0 "gender": "Other",
-0 "medical_history": "No known medical conditions. Annual health screening.",
-0 "deterioration_label": false,
-0 "timestamp": "2023-10-27T10:45:00Z",
-0 "hear_rate": 68.0,
-0 "blood_pressure_sys": 115.0,
-0 "blood_pressure_dia": 75.0,
-0 "oxygen_saturation": 99.0,
-0 "temperature": 36.6,
-0 "respiratory_rate": 14.0,
-0 "questionnaire_responses": {
-0 "describe_fatigue_level": "Minimal fatigue, feels energetic.",
-0 "describe_lifestyle": "Very active, participates in sports. Eats well.",
-0 "describe_mental_health": "Positive and happy."
-0 }
-0 },
+ "age": 78,
+ "gender": "Female",
+ "medical_history": "Chronic obstructive pulmonary disease (COPD). Increased cough and shortness of breath.",
+ "deterioration_label": true,
+ "timestamp": "2023-10-27T10:30:00Z",
+ "hear_rate": 105.0,
+ "blood_pressure_sys": 140.0,
+ "blood_pressure_dia": 88.0,
+ "oxygen_saturation": 88.0,
+ "temperature": 37.5,
+ "respiratory_rate": 25.0,
+ "questionnaire_responses": {
+ "describe_fatigue_level": "Very high fatigue, simple tasks are difficult.",
+ "describe_lifestyle": "Unable to do much physical activity. Home-bound.",
+ "describe_mental_health": "Feeling discouraged and isolated."
+ }
+ },
+ {
+ "patient_id": 4,
+ "age": 32,
+ "gender": "Other",
+ "medical_history": "No known medical conditions. Annual health screening.",
+ "deterioration_label": false,
+ "timestamp": "2023-10-27T10:45:00Z",
+ "hear_rate": 68.0,
+ "blood_pressure_sys": 115.0,
+ "blood_pressure_dia": 75.0,
+ "oxygen_saturation": 99.0,
+ "temperature": 36.6,
+ "respiratory_rate": 14.0,
+ "questionnaire_responses": {
+ "describe_fatigue_level": "Minimal fatigue, feels energetic.",
+ "describe_lifestyle": "Very active, participates in sports. Eats well.",
+ "describe_mental_health": "Positive and happy."
+ }
+ },
   {
     "patient_id": 5,
     "age": 58,
