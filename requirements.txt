@@ -1,0 +1,5 @@
+google
+pandas
+scikit-learn
+huggingface-hub
+transformers
