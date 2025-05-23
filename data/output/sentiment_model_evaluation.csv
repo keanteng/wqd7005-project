@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score,AUC
+Fatigue,0.5,0.3333333333333333,0.5,0.4,0.5277777777777778
+Activity,0.5,0.25,0.5,0.3333333333333333,0.5
+Mental Health,0.25,0.0625,0.25,0.1,0.5

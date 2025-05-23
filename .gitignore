@@ -1,1 +1,7 @@
+
 .env
+# Ignore safetensors model files
+*.safetensors
+models/**/*.safetensors
+# If you want to ignore the entire models directory
+# models/
