@@ -1,0 +1,46 @@
+This is a Data Science Master Coursework assignment where you are going to help provide the outline for the report to make sure it is comprehensive, robust for submission. Make use of your world knowledge and support from search grouding. You should include methodology, analytical techniques and results comparison and conclusions as well as recommendations.
+
+Here is the details of what have been done so far: 
+
+# Task 1
+For tasks 1, Gemini 2.5 Flash 0417 is used to generate data in the form of JSON format.
+[
+  {
+    "patient_id": Integer,
+    "age": Integer,
+    "gender": String,
+    "medical_history": Text,
+    "deterioration_label": Boolean,
+    "timestamp": DateTime,
+    "hear_rate": Float,
+    "blood_pressure_sys": Float,
+    "blood_pressure_dia": Float,
+    "oxygen_saturation": Float,
+    "temperature": Float,
+    "respiratory_rate": float,
+    "questionnaire_responses": {
+        "describe_fatigue_level": Text,
+        "describe_lifestyle": Text,
+        "describe_mental_health": Text,
+    }
+  }
+]
+
+The feature engineering stage make use of biobert to extract disease (entity name recognition) from medical history of the patients. For example, the sentence "The patient has a history of diabetes and hypertension" will be transformed into "["diabetes", "hypertension]". Then, gemini 2.5 flash 0417, generative ai model is used to to label the questionnaire response like describe_fatigue_level, describe_lifestyle and describe_mental_health. The generative model will label the response from a rank of 1 to 5 to represent the severity of the response. For example, a response like "I feel very tired and have no energy" will be labeled as 5, while "I feel fine" will be labeled as 1. These feature engineered data will be used for analysis in tasks 2. 
+
+# Task 2
+
+In task 2, we are required to train machine learning models for classification of patient deterioration based on the feature engineered data from task 1. The models used include: Random Forest, Neural Networks, XGBoost. These are traditional machine learning models that are commonly used for classification tasks. The models are trained on the feature engineered data and evaluated using metrics such as accuracy, precision, recall, and F1-score. Morever, two transformer based model are implemented on tabular data namely, Tab Transformer and FT Transformer (Feature Tokenizer Transformer). These models are also trained on the feature engineered data and evaluated using the same metrics. The results of the models are compared to determine which model performs best for the classification task. The transformer based models make use of self-attention mechanism and trained for 30 epochs. 
+
+Furthermore, natural language processing tasks are also required. For example, sentiment analysis is performed using Google BERT Large Model using A100 GPU on Google Colab. The sentimetn analysis is performed on the describe_lifestyle data where label are created by labelling it with "positive", "negative" and "neutral". The model is then evaluated using accuracy, precision, recall and F1-score. The model ROC curve and training loss curve are also plotted.
+
+Moreover, clinical textual interpretation is performed by fine-tuning a pretrained bio-clinical BERT model using A100 GPU on Google Colab. The model is trained on the medical_history data where the medical_history data is annoated with the disease labels extracted from the feature engineering stage. The model is then evaluated using accuracy, precision, recall and F1-score. The model ROC curve and training loss curve are also plotted. For example:
+
+Text: Patient has a history of hypertension and type 2 diabetes.
+Tagged tokens: [('Patient', 'O'), ('has', 'O'), ('a', 'O'), ('history', 'O'), ('of', 'O'), ('hypertension', 'B-DISEASE'), ('and', 'O'), ('type', 'B-DISEASE'), ('2', 'I-DISEASE'), ('diabetes', 'I-DISEASE'), ('.', 'O')]
+
+In addition, classification of questionnaire response is also performed again on describe_fatigue_level and describe_mental_health where there are labelled with label "Low Risk", "Moderate Risk" and "High Risk". The model is then evaluated using accuracy, precision, recall and F1-score. The model ROC curve and training loss curve are also plotted. In this particular tasks, 2 BERT base models are fine-tuned using A100 GPU on Google Colab so that they can classify the questionnaire response. The models are trained on the labelled data and evaluated using the same metrics.
+
+# Task 3
+
+In task 3 we are required to perform evaluation on all the trained model in task 2. The evaluation is performed using the test data and the metrics used include accuracy, precision, recall and F1-score. The models are compared based on these metrics to determine which model performs best for the classification task. The ROC curve and training loss curve are also plotted for each model to visualize the performance of the models. The results of the evaluation are then discussed and conclusions are drawn based on the performance of the models. Gemini 2.5 Flash Thinking 0417 is used to interpret all the evaluation metrics table, roc curve figures, confusion matrix figures and training loss figures. Grok 3 and Gemini 2.5 Flash Thinking 0520 are used to create prompt so that the can be feed into the API to create robust interpretation of the evaluation metrics. The prompt is then used to generate the interpretation of the evaluation metrics and the results are discussed in detail. The interpretation includes the analysis of the performance of each model, the comparison of the models based on the metrics, and the discussion of the strengths and weaknesses of each model. The results are then summarized and conclusions are drawn based on the performance of the models.
