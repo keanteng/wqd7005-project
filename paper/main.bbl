@@ -1,0 +1,769 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{devlin2019bertpretrainingdeepbidirectional}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{fullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorfullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1810.04805
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1810.04805
+      \endverb
+    \endentry
+    \entry{Doshi_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=55196db49d4df72713bd8e3d226595b6}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Tulsee},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Google}%
+      }
+      \strng{namehash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{fullhash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{fullhashraw}{55196db49d4df72713bd8e3d226595b6}
+      \strng{bibnamehash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{authorbibnamehash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{authornamehash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{authorfullhash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{authorfullhashraw}{55196db49d4df72713bd8e3d226595b6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Google}
+      \field{month}{5}
+      \field{title}{Gemini 2.5: Our most intelligent models are getting even better}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/#developer-experience
+      \endverb
+      \verb{url}
+      \verb https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/#developer-experience
+      \endverb
+    \endentry
+    \entry{gorishniy2023revisitingdeeplearningmodels}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7dd7af94de3b3862c24d41c106caf2f5}{%
+           family={Gorishniy},
+           familyi={G\bibinitperiod},
+           given={Yury},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=857963992fd978875aa04642e34c6bc0}{%
+           family={Rubachev},
+           familyi={R\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5b5ff08d09abf6b42c03ace98025744}{%
+           family={Khrulkov},
+           familyi={K\bibinitperiod},
+           given={Valentin},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=799a6bc499428a859c0cfe734a21bdbb}{%
+           family={Babenko},
+           familyi={B\bibinitperiod},
+           given={Artem},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5513b7fb2324e126b535c6c6f9ccdda8}
+      \strng{fullhash}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{fullhashraw}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{bibnamehash}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{authorbibnamehash}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{authornamehash}{5513b7fb2324e126b535c6c6f9ccdda8}
+      \strng{authorfullhash}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{authorfullhashraw}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Revisiting Deep Learning Models for Tabular Data}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2106.11959
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2106.11959
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2106.11959
+      \endverb
+    \endentry
+    \entry{huang2020tabtransformertabulardatamodeling}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7ff1d21e3184f525b582b31f2ce6651b}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96cd3c2df0c5d43b0287c81bfae44cdc}{%
+           family={Khetan},
+           familyi={K\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4c7f51ec3e51eb269cd7c86f0c0a0c5}{%
+           family={Cvitkovic},
+           familyi={C\bibinitperiod},
+           given={Milan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=443b54729b2dda4b0c4fe4f407083de7}{%
+           family={Karnin},
+           familyi={K\bibinitperiod},
+           given={Zohar},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64856cd821f2d5fe67a4f6173e536fbe}
+      \strng{fullhash}{1689f87f99710b6365af75d38751ae72}
+      \strng{fullhashraw}{1689f87f99710b6365af75d38751ae72}
+      \strng{bibnamehash}{1689f87f99710b6365af75d38751ae72}
+      \strng{authorbibnamehash}{1689f87f99710b6365af75d38751ae72}
+      \strng{authornamehash}{64856cd821f2d5fe67a4f6173e536fbe}
+      \strng{authorfullhash}{1689f87f99710b6365af75d38751ae72}
+      \strng{authorfullhashraw}{1689f87f99710b6365af75d38751ae72}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{TabTransformer: Tabular Data Modeling Using Contextual Embeddings}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2012.06678
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2012.06678
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2012.06678
+      \endverb
+    \endentry
+    \entry{Lee_2019}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5ba41d910cff5f2417435f020e345d96}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jinhyuk},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58a0d6f9fccd5ea8488a019da5baa102}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Wonjin},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce454f52d2f9592778865d720c09fbbb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sungdong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ac8f93c52821069e0cae2242d744139}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Donghyeon},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20cd68102eda3d1ec498b7de2e0d5b10}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sunkyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8306d6251506a9021489bbce638e259}{%
+           family={So},
+           familyi={S\bibinitperiod},
+           given={Chan\bibnamedelima Ho},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e78ec4678faa85f642776c14d3877113}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jaewoo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=a77aea90144366df391a6a71af94c408}{%
+           family={Wren},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press (OUP)}%
+      }
+      \strng{namehash}{d09461c40d714b666bc4fc6a24f15e0f}
+      \strng{fullhash}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{fullhashraw}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{bibnamehash}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{authorbibnamehash}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{authornamehash}{d09461c40d714b666bc4fc6a24f15e0f}
+      \strng{authorfullhash}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{authorfullhashraw}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{editorbibnamehash}{a77aea90144366df391a6a71af94c408}
+      \strng{editornamehash}{a77aea90144366df391a6a71af94c408}
+      \strng{editorfullhash}{a77aea90144366df391a6a71af94c408}
+      \strng{editorfullhashraw}{a77aea90144366df391a6a71af94c408}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1367-4811}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{BioBERT: a pre-trained biomedical language representation model for biomedical text mining}
+      \field{volume}{36}
+      \field{year}{2019}
+      \field{pages}{1234\bibrangedash 1240}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btz682
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1093/bioinformatics/btz682
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1093/bioinformatics/btz682
+      \endverb
+    \endentry
+    \entry{ling2023bioclinicalbertbertbase}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10b83e026f5d7e7f6895542ad854db98}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{fullhash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{fullhashraw}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{bibnamehash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{authorbibnamehash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{authornamehash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{authorfullhash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{authorfullhashraw}{10b83e026f5d7e7f6895542ad854db98}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Bio+Clinical BERT, BERT Base, and CNN Performance Comparison for Predicting Drug-Review Satisfaction}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2308.03782
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2308.03782
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2308.03782
+      \endverb
+    \endentry
+    \entry{xGrokBeta}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4a51f7c59c298752753f6a81bed831e0}{%
+           family={XAI},
+           familyi={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {xAI}%
+      }
+      \strng{namehash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{fullhash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{fullhashraw}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{bibnamehash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{authorbibnamehash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{authornamehash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{authorfullhash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{authorfullhashraw}{4a51f7c59c298752753f6a81bed831e0}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{G}rok 3 {B}eta — {T}he {A}ge of {R}easoning {A}gents | x{A}{I} --- x.ai}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://x.ai/news/grok-3
+      \endverb
+      \verb{url}
+      \verb https://x.ai/news/grok-3
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{devlin2019bertpretrainingdeepbidirectional}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{fullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorfullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1810.04805
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1810.04805
+      \endverb
+    \endentry
+    \entry{Doshi_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=55196db49d4df72713bd8e3d226595b6}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Tulsee},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Google}%
+      }
+      \strng{namehash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{fullhash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{fullhashraw}{55196db49d4df72713bd8e3d226595b6}
+      \strng{bibnamehash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{authorbibnamehash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{authornamehash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{authorfullhash}{55196db49d4df72713bd8e3d226595b6}
+      \strng{authorfullhashraw}{55196db49d4df72713bd8e3d226595b6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Google}
+      \field{month}{5}
+      \field{title}{Gemini 2.5: Our most intelligent models are getting even better}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/#developer-experience
+      \endverb
+      \verb{url}
+      \verb https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/#developer-experience
+      \endverb
+    \endentry
+    \entry{gorishniy2023revisitingdeeplearningmodels}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7dd7af94de3b3862c24d41c106caf2f5}{%
+           family={Gorishniy},
+           familyi={G\bibinitperiod},
+           given={Yury},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=857963992fd978875aa04642e34c6bc0}{%
+           family={Rubachev},
+           familyi={R\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5b5ff08d09abf6b42c03ace98025744}{%
+           family={Khrulkov},
+           familyi={K\bibinitperiod},
+           given={Valentin},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=799a6bc499428a859c0cfe734a21bdbb}{%
+           family={Babenko},
+           familyi={B\bibinitperiod},
+           given={Artem},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5513b7fb2324e126b535c6c6f9ccdda8}
+      \strng{fullhash}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{fullhashraw}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{bibnamehash}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{authorbibnamehash}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{authornamehash}{5513b7fb2324e126b535c6c6f9ccdda8}
+      \strng{authorfullhash}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \strng{authorfullhashraw}{d23b9e9ee5e78df3fd13a6d2f852ed5b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Revisiting Deep Learning Models for Tabular Data}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2106.11959
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2106.11959
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2106.11959
+      \endverb
+    \endentry
+    \entry{huang2020tabtransformertabulardatamodeling}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7ff1d21e3184f525b582b31f2ce6651b}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96cd3c2df0c5d43b0287c81bfae44cdc}{%
+           family={Khetan},
+           familyi={K\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4c7f51ec3e51eb269cd7c86f0c0a0c5}{%
+           family={Cvitkovic},
+           familyi={C\bibinitperiod},
+           given={Milan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=443b54729b2dda4b0c4fe4f407083de7}{%
+           family={Karnin},
+           familyi={K\bibinitperiod},
+           given={Zohar},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64856cd821f2d5fe67a4f6173e536fbe}
+      \strng{fullhash}{1689f87f99710b6365af75d38751ae72}
+      \strng{fullhashraw}{1689f87f99710b6365af75d38751ae72}
+      \strng{bibnamehash}{1689f87f99710b6365af75d38751ae72}
+      \strng{authorbibnamehash}{1689f87f99710b6365af75d38751ae72}
+      \strng{authornamehash}{64856cd821f2d5fe67a4f6173e536fbe}
+      \strng{authorfullhash}{1689f87f99710b6365af75d38751ae72}
+      \strng{authorfullhashraw}{1689f87f99710b6365af75d38751ae72}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{TabTransformer: Tabular Data Modeling Using Contextual Embeddings}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2012.06678
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2012.06678
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2012.06678
+      \endverb
+    \endentry
+    \entry{Lee_2019}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5ba41d910cff5f2417435f020e345d96}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jinhyuk},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58a0d6f9fccd5ea8488a019da5baa102}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Wonjin},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce454f52d2f9592778865d720c09fbbb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sungdong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ac8f93c52821069e0cae2242d744139}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Donghyeon},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20cd68102eda3d1ec498b7de2e0d5b10}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sunkyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8306d6251506a9021489bbce638e259}{%
+           family={So},
+           familyi={S\bibinitperiod},
+           given={Chan\bibnamedelima Ho},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e78ec4678faa85f642776c14d3877113}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jaewoo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=a77aea90144366df391a6a71af94c408}{%
+           family={Wren},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press (OUP)}%
+      }
+      \strng{namehash}{d09461c40d714b666bc4fc6a24f15e0f}
+      \strng{fullhash}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{fullhashraw}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{bibnamehash}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{authorbibnamehash}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{authornamehash}{d09461c40d714b666bc4fc6a24f15e0f}
+      \strng{authorfullhash}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{authorfullhashraw}{0ab177fd2cb9c7641ac3e66f20dd1dac}
+      \strng{editorbibnamehash}{a77aea90144366df391a6a71af94c408}
+      \strng{editornamehash}{a77aea90144366df391a6a71af94c408}
+      \strng{editorfullhash}{a77aea90144366df391a6a71af94c408}
+      \strng{editorfullhashraw}{a77aea90144366df391a6a71af94c408}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1367-4811}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{BioBERT: a pre-trained biomedical language representation model for biomedical text mining}
+      \field{volume}{36}
+      \field{year}{2019}
+      \field{pages}{1234\bibrangedash 1240}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btz682
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1093/bioinformatics/btz682
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1093/bioinformatics/btz682
+      \endverb
+    \endentry
+    \entry{ling2023bioclinicalbertbertbase}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10b83e026f5d7e7f6895542ad854db98}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{fullhash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{fullhashraw}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{bibnamehash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{authorbibnamehash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{authornamehash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{authorfullhash}{10b83e026f5d7e7f6895542ad854db98}
+      \strng{authorfullhashraw}{10b83e026f5d7e7f6895542ad854db98}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Bio+Clinical BERT, BERT Base, and CNN Performance Comparison for Predicting Drug-Review Satisfaction}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2308.03782
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2308.03782
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2308.03782
+      \endverb
+    \endentry
+    \entry{xGrokBeta}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4a51f7c59c298752753f6a81bed831e0}{%
+           family={XAI},
+           familyi={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {xAI}%
+      }
+      \strng{namehash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{fullhash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{fullhashraw}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{bibnamehash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{authorbibnamehash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{authornamehash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{authorfullhash}{4a51f7c59c298752753f6a81bed831e0}
+      \strng{authorfullhashraw}{4a51f7c59c298752753f6a81bed831e0}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{G}rok 3 {B}eta — {T}he {A}ge of {R}easoning {A}gents | x{A}{I} --- x.ai}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://x.ai/news/grok-3
+      \endverb
+      \verb{url}
+      \verb https://x.ai/news/grok-3
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,59 @@
+\documentclass{article}
+
+\usepackage{PRIMEarxiv}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs} % professional-quality tables
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage[style=apa]{biblatex}
+\addbibresource{references.bib} % Link to your .bib file
+%\usepackage[margin=1in]{geometry} % Removed to avoid option clash
+\usepackage{graphicx} % For including images
+
+\input{hyperref-enhanced.tex}
+
+%Header
+\pagestyle{fancy}
+\thispagestyle{empty}
+\rhead{ \textit{ }} 
+
+% Update your Headers here
+\fancyhead[LO]{Harnessing AI and Language Models for Predictive Modeling of Patient Health Deterioration}
+
+%% Title
+\title{Harnessing AI and Language Models for Predictive Modeling of Patient Health Deterioration}
+
+\author{
+  Khor Kean Teng \\
+  WQD 7005 Data Mining \\
+  Faculty of Computer Science \& Information Technology, University Malaya \\
+  Kuala Lumpur\\
+  \texttt{\{u2004763\}@siswa.um.edu.my} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  \input{abstract.tex}
+\end{abstract}
+
+% keywords can be removed
+\keywords{: BERT \and Transformer \and Artificial Intelligence \and Generative AI \and Small Language Models (SLMs)}
+
+\input{introduction.tex}
+\input{methodology.tex}
+\input{results.tex}
+\input{conclusion.tex}
+\input{recommendations.tex}
+\input{disclosure.tex}
+
+% Bibliography
+\printbibliography
+
+\end{document}

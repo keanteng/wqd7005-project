@@ -1,0 +1,25 @@
+\section{AI Usage Disclosure}
+
+\subsection{Data Generation}
+
+\textit{Gemini 2.5 Flash-0417} \parencite{Doshi_2025} was employed for generating the comprehensive synthetic JSON patient dataset that formed the foundation of this study. This included creation of realistic patient identifiers, demographic information such as age and gender, detailed medical history narratives, vital sign measurements, and structured questionnaire responses. The model's capacity for generating clinically plausible synthetic data enabled the creation of a substantial dataset suitable for machine learning model development while avoiding privacy concerns associated with real patient data.
+
+\subsection{Feature Engineering}
+
+Feature engineering processes leveraged multiple AI tools to transform raw textual data into structured formats suitable for machine learning applications. \textit{Gemini 2.5 Flash-0417} \parencite{Doshi_2025} facilitated the conversion of free-text questionnaire responses describing fatigue levels, lifestyle factors, and mental health status into standardized 1-5 severity scales. \textit{BioBERT} \parencite{Lee_2019} was utilized for named entity recognition tasks, specifically extracting disease entities from medical history fields to create structured clinical features for subsequent modeling efforts.
+
+\subsection{Predictive Modeling for Specialized NLP Tasks}
+
+Several specialized natural language processing tasks employed domain-specific transformer models to address clinical text analysis challenges. Google \textit{BERT-Large} \parencite{devlin2019bertpretrainingdeepbidirectional} performed sentiment analysis on lifestyle descriptions, categorizing responses into positive, negative, and neutral classifications. Fine-tuned \textit{Bio-Clinical BERT} \parencite{ling2023bioclinicalbertbertbase} handled clinical text interpretation through named entity recognition on medical history data, applying BIO tagging schemes to identify disease entities. Two separate fine-tuned \textit{BERT-base} model instances were deployed for questionnaire response classification, specifically targeting fatigue level and mental health descriptions to generate risk categorizations of low, moderate, and high risk levels.
+
+\subsection{Results Interpretation}
+
+Results interpretation processes incorporated AI assistance to analyze complex model evaluation metrics and visualizations for comprehensive understanding. \textit{Gemini 2.5-Flash-Thinking-0417} \parencite{Doshi_2025}, specifically the "\texttt{gemini-2.5-flash-preview-04-17-thinking}" variant to provide interpretation of model evaluation metrics, confusion matrices, ROC curves, and training loss curves across all developed models. This AI-assisted interpretation helped identify performance patterns and model behavior characteristics that informed subsequent analysis and discussion.
+
+\subsection{Prompt Engineering for Interpretation}
+
+Specialized prompt engineering approaches utilized different AI models for specific interpretation tasks. \textit{Grok-3} \parencite{xGrokBeta} powered the prompt design for interpreting machine learning classification results tables, providing structured analysis of model performance metrics. \textit{Gemini 2.5 Flash-Thinking-0520} \parencite{Doshi_2025} supported prompt development for interpreting visual outputs including confusion matrices, ROC curves, and loss curves specifically for natural language processing tasks, ensuring comprehensive analysis of model performance across different evaluation dimensions.
+
+\subsection{Compliance and Integration}
+
+This project operated within established guidelines permitting AI-generated assistance for technical tasks including data generation, feature engineering, model development using pre-trained architectures with fine-tuning, and results interpretation. All AI-generated content underwent human oversight and synthesis to ensure accuracy, relevance, and integration with the broader research objectives. The substantial AI assistance in technical implementation was balanced with human-directed analysis, interpretation, and synthesis to maintain research integrity and academic rigor throughout the project development process.
