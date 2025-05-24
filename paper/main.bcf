@@ -3096,6 +3096,7 @@
     <bcf:citekey order="24" intorder="1">2025geminipro</bcf:citekey>
     <bcf:citekey order="25" intorder="1">xGrokBeta</bcf:citekey>
     <bcf:citekey order="26" intorder="1">claude4</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">opengpt41</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

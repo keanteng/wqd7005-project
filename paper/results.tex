@@ -6,7 +6,7 @@ This section presents the performance of the developed models for patient deteri
 
 The primary objective of this sub-task was to accurately classify patient deterioration. A range of models were developed and rigorously evaluated using standard metrics, including Accuracy, Precision, Recall, F1-score, and Area Under the Receiver Operating Characteristic Curve (AUC), to determine their predictive capabilities.
 
-\subsection{Performance of Traditional Models (\textit{Random Forest, XGBoost, Neural Networks}) and Transformer-based Tabular Models (\textit{TabTransformer, FT Transformer})}
+\subsubsection{Performance of Traditional Models (\textit{Random Forest, XGBoost, Neural Networks}) and Transformer-based Tabular Models (\textit{TabTransformer, FT Transformer})}
 
 The performance metrics for several traditional machine learning models (\textit{Random Forest, XGBoost, Neural Network}) and transformer-based models adapted for tabular data (\textit{FT Transformer \parencite{gorishniy2023revisitingdeeplearningmodels}, Tab Transformer \parencite{huang2020tabtransformertabulardatamodeling}}) were evaluated on the designated test set. The evaluated matrices are displayed in the Table \ref{tab:ml_model_performance}  below.
 
@@ -46,7 +46,7 @@ Further visualization of model performance was achieved through confusion matric
     \end{minipage}
 \end{figure}
 
-\subsection{AI-Assisted Interpretation of Deterioration Classification Results}
+\subsubsection{AI-Assisted Interpretation of Deterioration Classification Results}
 
 To augment the analysis, an AI model (\textit{Gemini-2.5-Flash-Thinking-Preview-0417}) \parencite{Doshi_2025} was employed to interpret the performance metrics table. We identified Random Forest as the best overall performer, attributing this to its superior accuracy, precision, recall, and F1-score, alongside a highly competitive AUC. While FT Transformer exhibited a marginally higher AUC, we noticed Random Forest's balanced and consistently high scores across various threshold-dependent metrics. Comparing traditional and deep learning approaches, we noted that traditional tree-based models, particularly Random Forest and XGBoost, were highly competitive, with Random Forest leading. Among the deep learning models, FT Transformer achieved the best AUC, whereas Tab Transformer registered the lowest accuracy, precision, and F1-score. We attributed these performance differences to factors such as model suitability for tabular data (where tree-based models often excel), the capacity to capture complex feature interactions, model robustness (often enhanced by ensemble methods), the effectiveness of hyperparameter tuning, and the influence of data size. For further improvement, we suggested avenues including more rigorous hyperparameter tuning, comprehensive cross-validation, advanced feature engineering, the exploration of ensembling or stacking techniques, and fine-tuning of classification thresholds. Based on its analysis, the AI recommended Random Forest for potential deployment, citing its leading performance, inherent robustness, computational efficiency, and comparatively better interpretability in this context relative to the deep learning alternatives.
 
@@ -54,7 +54,7 @@ The AI's interpretation of the confusion matrices, based on raw True Negative (T
 
 An AI-driven interpretation of the ROC curves revealed that Random Forest, FT Transformer, and Tab Transformer all achieved perfect AUC scores of 1.000. XGBoost and Neural Network also demonstrated exceptional performance with AUCs of 0.999. The AI highlighted that such high AUC values imply an excellent to perfect ability of the models to distinguish between positive and negative classes on the evaluated dataset. However, these near-perfect scores prompted caution from the AI, which raised concerns regarding potential data leakage, overfitting (particularly if evaluation sets were small or cross-validation was not rigorously applied), or the possibility of a trivially easy dataset. Given that perfect scores were observed across multiple diverse architectures, data leakage was identified as a strong possibility requiring thorough investigation. The AI's report concluded that while all models exhibited outstanding performance on the provided evaluation set, the perfect or near-perfect AUCs warrant careful examination of potential underlying data issues before definitive conclusions about model robustness and generalizability can be drawn.
 
-\subsection{Comparative Analysis and Discussion}
+\subsubsection{Comparative Analysis and Discussion}
 
 The models developed for patient deterioration classification generally demonstrated exceptionally high performance. As highlighted by both the initial results table and the AI's interpretation, the Random Forest model exhibited the most consistent and superior performance across accuracy, precision, recall, and F1-score. The FT Transformer also emerged as a strong contender, particularly distinguished by its leading AUC value.
 
@@ -66,7 +66,7 @@ The achievement of perfect AUCs by three models—Random Forest, FT Transformer,
 
 This sub-section details the performance of models developed for various NLP tasks, including sentiment analysis, clinical text interpretation (Named Entity Recognition), and questionnaire response classification, again incorporating AI-assisted interpretations.
 
-\subsection{Sentiment Analysis on \texttt{describe\_lifestyle}}
+\subsubsection{Sentiment Analysis on \texttt{describe\_lifestyle}}
 
 For sentiment analysis, models were applied to the \texttt{describe\_lifestyle} text from questionnaire responses. Evaluation results which encompassed metrics for Fatigue, Activity/Anxiety, and Mental Health sentiment. The underlying models were BERT base, fine-tuned for 3-class sentiment classification (positive, neutral, negative). Visualizations included confusion matrices and ROC curves as well as training loss curves. The summary of evaluation metrics is presented in Table \ref{tab:sentiment_analysis_performance} below:
 
@@ -113,7 +113,7 @@ AI-assisted interpretations provided further insights. The AI rated the AUC, Fig
 
 In discussion, the BERT base models demonstrated commendable performance in sentiment analysis, particularly for the Fatigue category. A consistent challenge across all sentiment categories was the classification of "Neutral" sentiment, a common difficulty in NLP tasks due to its subjective nature and often subtle linguistic expression. The early and pronounced overfitting highlighted by the AI's analysis of loss curves suggests that even robust models like BERT base can quickly memorize training examples when datasets are small, underscoring the critical importance of careful early stopping procedures.
 
-\subsection{Clinical Text Interpretation (NER) on medical\_history}
+\subsubsection{Clinical Text Interpretation (NER) on medical\_history}
 
 Named Entity Recognition (NER) was performed on medical\_history text using a fine-tuned Bio-Clinical BERT model. The notebook loaded NER evaluation results in cell 497826f3, summarized in the Metrics Table \ref{tab:ner_performance} below:
 
@@ -153,7 +153,7 @@ AI-assisted interpretations offered a detailed analysis. The AI noted the except
 
 Discussing these findings, the Bio-Clinical BERT model demonstrated very high potential for NER on disease entities. Token-level metrics such as Accuracy and the AUC derived from the ROC curve were near-perfect. However, the entity-level F1-score, while good at 0.926, was considerably lower than the F1-score observed on the validation set during training. This discrepancy highlights a common challenge when working with small datasets: a model can appear to perform almost perfectly on validation data but still struggle to generalize effectively to a truly independent test set, particularly for complex sequence labeling tasks like NER. The observed drop of approximately 7\% in F1-score indicates that while token-level classification might be excellent, consistently and correctly identifying the exact boundaries and types of entities on new, unseen data proves more challenging.
 
-\subsection{Questionnaire Response Classification (\texttt{describe\_fatigue\_level, describe\_mental\_health})}
+\subsubsection{Questionnaire Response Classification (\texttt{describe\_fatigue\_level, describe\_mental\_health})}
 
 This task involved using BERT base models to classify textual questionnaire responses from \texttt{describe\_fatigue\_level} and \texttt{describe\_mental\_health} into "Low Risk," "Moderate Risk," and "High Risk" categories. The results and discussion for this appear to align closely with those presented for the "Sentiment Analysis" task, where "Fatigue," "Activity/Anxiety," and "Mental Health" were the evaluated categories with labels "positive," "neutral," and "negative." It is assumed that a mapping exists, such as "positive" to "Low Risk," "neutral" to "Moderate Risk," and "negative" to "High Risk," or a similar schema appropriate to the problem's framing. Therefore, the discussion from sentiment analysis largely applies here. Visual performance indicators for this specific framing are provided by confusion matrices, Figure \ref{fig:qr_confusion_matrices} and ROC curves, Figure \ref{fig:qr_roc_curves}.
 

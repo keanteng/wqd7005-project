@@ -617,6 +617,44 @@
       \verb https://arxiv.org/abs/1705.07874
       \endverb
     \endentry
+    \entry{opengpt41}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Introducing GPT-4.1 in the API—a new family of models with across-the-board improvements, including major gains in coding, instruction following, and long-context understanding. We’re also releasing our first nano model. Available to developers worldwide starting today.}
+      \field{title}{Introducing {GPT}-4.1 in the {API}}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://openai.com/index/gpt-4-1/
+      \endverb
+      \verb{url}
+      \verb https://openai.com/index/gpt-4-1/
+      \endverb
+    \endentry
     \entry{xGrokBeta}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4a51f7c59c298752753f6a81bed831e0}{%
@@ -1641,6 +1679,44 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/1705.07874
+      \endverb
+    \endentry
+    \entry{opengpt41}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Introducing GPT-4.1 in the API—a new family of models with across-the-board improvements, including major gains in coding, instruction following, and long-context understanding. We’re also releasing our first nano model. Available to developers worldwide starting today.}
+      \field{title}{Introducing {GPT}-4.1 in the {API}}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://openai.com/index/gpt-4-1/
+      \endverb
+      \verb{url}
+      \verb https://openai.com/index/gpt-4-1/
       \endverb
     \endentry
     \entry{xGrokBeta}{misc}{}{}
