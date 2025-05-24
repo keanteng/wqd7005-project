@@ -1,0 +1,4 @@
+Training completed with 5 epochs
+Final validation accuracy: 0.9912
+Final validation F1 score: 0.9878
+Best validation F1 score: 0.9878
