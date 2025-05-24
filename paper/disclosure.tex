@@ -2,7 +2,7 @@
 
 \subsection{Data Generation}
 
-\textit{Gemini 2.5 Flash-0417} \parencite{Doshi_2025} was employed for generating the comprehensive synthetic JSON patient dataset that formed the foundation of this study. This included creation of realistic patient identifiers, demographic information such as age and gender, detailed medical history narratives, vital sign measurements, and structured questionnaire responses. The model's capacity for generating clinically plausible synthetic data enabled the creation of a substantial dataset suitable for machine learning model development while avoiding privacy concerns associated with real patient data.
+\textit{Gemini 2.5 Flash-0417} \parencite{Doshi_2025} was employed for generating the comprehensive synthetic JSON patient dataset that formed the foundation of this study. This included creation of realistic patient identifiers, demographic information such as age and gender, detailed medical history narratives, vital sign measurements, and structured questionnaire responses data schema inspired by Qwen 3 \parencite{yang2025qwen3technicalreport}. The model's capacity for generating clinically plausible synthetic data enabled the creation of a substantial dataset suitable for machine learning model development while avoiding privacy concerns associated with real patient data.
 
 \subsection{Feature Engineering}
 
@@ -10,7 +10,7 @@ Feature engineering processes leveraged multiple AI tools to transform raw textu
 
 \subsection{Predictive Modeling for Specialized NLP Tasks}
 
-Several specialized natural language processing tasks employed domain-specific transformer models to address clinical text analysis challenges. Google \textit{BERT-Large} \parencite{devlin2019bertpretrainingdeepbidirectional} performed sentiment analysis on lifestyle descriptions, categorizing responses into positive, negative, and neutral classifications. Fine-tuned \textit{Bio-Clinical BERT} \parencite{ling2023bioclinicalbertbertbase} handled clinical text interpretation through named entity recognition on medical history data, applying BIO tagging schemes to identify disease entities. Two separate fine-tuned \textit{BERT-base} model instances were deployed for questionnaire response classification, specifically targeting fatigue level and mental health descriptions to generate risk categorizations of low, moderate, and high risk levels.
+Several specialized natural language processing tasks employed domain-specific transformer models to address clinical text analysis challenges. Google \textit{BERT-Large} \parencite{devlin2019bertpretrainingdeepbidirectional} performed sentiment analysis on lifestyle descriptions, categorizing responses into positive, negative, and neutral classifications. Fine-tuned \textit{Bio-Clinical BERT} \parencite{ling2023bioclinicalbertbertbase} handled clinical text interpretation through named entity recognition on medical history data, applying BIO tagging schemes to identify disease entities. Two separate fine-tuned \textit{BERT-base} model \parencite{devlin2019bertpretrainingdeepbidirectional} instances were deployed for questionnaire response classification, specifically targeting fatigue level and mental health descriptions to generate risk categorizations of low, moderate, and high risk levels.
 
 \subsection{Results Interpretation}
 
@@ -19,6 +19,11 @@ Results interpretation processes incorporated AI assistance to analyze complex m
 \subsection{Prompt Engineering for Interpretation}
 
 Specialized prompt engineering approaches utilized different AI models for specific interpretation tasks. \textit{Grok-3} \parencite{xGrokBeta} powered the prompt design for interpreting machine learning classification results tables, providing structured analysis of model performance metrics. \textit{Gemini 2.5 Flash-Thinking-0520} \parencite{Doshi_2025} supported prompt development for interpreting visual outputs including confusion matrices, ROC curves, and loss curves specifically for natural language processing tasks, ensuring comprehensive analysis of model performance across different evaluation dimensions.
+
+\subsection{Report Writing and Documentation}
+
+Various AI models were employed to assist in drafting and refining the project report. \textit{Gemini 2.5 Pro-0506} \parencite{2025geminipro} was used for generating initial drafts of sections, summarizing findings, and providing structured outlines for the report. Additionally, \textit{Grok-3} \parencite{xGrokBeta} contributed to enhancing the clarity and coherence of the written content, ensuring that technical details were accurately conveyed while maintaining readability for a broader audience. Furthermore, Claude Sonnet 4 \parencite{claude4} was applied in report refinement, particularly in enhancing the narrative flow and ensuring that complex technical concepts were presented in an accessible manner.
+
 
 \subsection{Compliance and Integration}
 

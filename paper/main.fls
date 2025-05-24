@@ -296,6 +296,9 @@ INPUT recommendations.tex
 INPUT ./disclosure.tex
 INPUT ./disclosure.tex
 INPUT disclosure.tex
+INPUT ./availability.tex
+INPUT ./availability.tex
+INPUT availability.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
