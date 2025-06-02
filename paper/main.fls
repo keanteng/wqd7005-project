@@ -306,6 +306,11 @@ INPUT disclosure.tex
 INPUT ./availability.tex
 INPUT ./availability.tex
 INPUT availability.tex
+INPUT c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
